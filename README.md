@@ -71,7 +71,7 @@ python migrate.py
 python migrate.py --force
 ```
 
-> [!IMPORTANT]
+> **IMPORTANT**
 > Ensure that the field types defined in your models match the actual data types stored in Redis. If there's a mismatch (e.g., a field is defined as `int` in the model but stored as a `string` in Redis), the indexing engine may fail to detect or index the data correctly.
 
 ## API Reference
