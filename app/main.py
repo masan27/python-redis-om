@@ -17,7 +17,7 @@ def create_app() -> FastAPI:
     app = FastAPI(
         title=settings.APP_NAME,
         description="Professional Redis OM Query Service for Sian Ecosystem",
-        version="0.1.0",
+        version="0.2.1",
         docs_url="/docs",
         redoc_url="/redoc",
     )

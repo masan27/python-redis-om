@@ -51,6 +51,8 @@ def build_condition(model, field_name: str, op: str, value: Any):
         "like":       field_obj % f"*{value}*", # Alias
         "startswith": field_obj ^ value,
         "endswith":   field_obj % f"*{value}",
+        "null":       field_obj == None,
+        "not_null":   field_obj != None,
     }
     
     if op not in ops:
