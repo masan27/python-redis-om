@@ -41,7 +41,13 @@ GLOBAL_KEY_PREFIX=app_project_name
 
 1. **Local Setup (Poetry)**:
    ```bash
+   # Configure poetry to create virtualenv in project directory (.venv)
+   poetry config virtualenvs.in-project true --local
+   
+   # Install dependencies
    poetry install
+   
+   # Run service
    poetry run uvicorn app.main:app --reload
    ```
 
