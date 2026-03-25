@@ -5,6 +5,7 @@ description = "FastAPI service for Redis OM queries and indexing"
 authors = [
     {name = "Sian", email = "anaufal879@gmail.com"}
 ]
+license = {text = "Proprietary"}
 repository = "https://github.com/masan27/python-redis-om"
 homepage = "https://github.com/masan27/python-redis-om"
 readme = "README.md"

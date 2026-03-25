@@ -116,4 +116,4 @@ Automatically detects the data type and prepends the `GLOBAL_KEY_PREFIX` if miss
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Custom Fork-Only License. Please see the [LICENSE](LICENSE) file for more information.
