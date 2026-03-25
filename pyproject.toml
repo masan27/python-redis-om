@@ -1,6 +1,6 @@
 [project]
 name = "python-redis-om"
-version = "0.2.1"
+version = "0.2.2"
 description = "FastAPI service for Redis OM queries and indexing"
 authors = [
     {name = "Sian", email = "anaufal879@gmail.com"}
